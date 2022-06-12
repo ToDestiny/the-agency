@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from '../../components/Header';
 
-function Home() {
+function Journal() {
   return (
-    <div className="App">
-      <header className="App-header">ATWIM</header>
+    <div>
+      <h1>Mon Journal</h1>
       <Header />
     </div>
   );
 }
 
-export default Home;
+export default Journal;
