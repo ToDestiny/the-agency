@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Futura-med';
+  src: local('Futura-med'),
+    url(../assets/fonts/Futura\ Medium/Futura\ Medium.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Georgia';
+  src: local('Georgia'),
+    url(../assets/fonts/Georgia\ Font/Georgia.ttf) format('truetype');
+}

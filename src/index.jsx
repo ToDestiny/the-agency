@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -6,6 +6,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/index';
 import Error from './pages/Error';
 import Journal from './pages/Journal';
+
+// Utils
+import './utils/fonts.css';
 
 // Test related
 // import reportWebVitals from './reportWebVitals';
