@@ -6,6 +6,7 @@ import colors from '../../utils/style/colors';
 import Logo from '../../assets/logo/Logo-TheAgency.svg';
 
 const NavContainer = styled.header`
+  min-height: 10%;
   height: 4em;
   padding: 25px;
   display: flex;
@@ -41,7 +42,7 @@ function Header() {
         <LogoImg src={Logo} alt="Atwim logo" />
         <NavBar>
           <Link to="/">Accueil</Link>
-          <Link to="/myjournal">Informations</Link>
+          <Link to="/informations">Informations</Link>
         </NavBar>
       </NavContainer>
     </nav>
